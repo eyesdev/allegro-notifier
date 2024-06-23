@@ -1,6 +1,7 @@
 # allegro-notifier
 
-# THIS WAS PROGRAMMED/CODED BY JAKUB/EYESDEV
+[Read in Polish/Czytaj po Polsku](https://github.com/eyesdev/allegro-notifier/blob/main/README_POLSKI.md)
+
 
 # HOW TO USE:
 1. Right click an empty space in this folder and select "Open in terminal"
@@ -20,24 +21,4 @@ Property | Type | Description
 `headless` | boolean | Whether to run the browser in the headless mode or not. Use false only when debugging
 
 
-Useage - After all this, do `npm run start` in the terminal to start the program.
-
-# JAK UŻYWAĆ:
-1. Kliknij prawym przyciskiem myszy puste miejsce w tym folderze i wybierz „Otwórz w terminalu”
-2. Wykonaj `npm install`
-3. Znajdź plik `users.txt` i otwórz go
-4. Zastąp wszystkie konta i wpisz informacje o koncie w następującym formacie: `e-mail:hasło`
-5. Znajdź plik `auctions.txt` i otwórz go
-6. Zastąp te linki rzeczywistymi linkami do aukcji Allegro
-7. Dostosuj plik `config.js` do swoich potrzeb
-
-Nieruchomość | Wpisz | Opis
-
-quantityPerAccount | numer | Ile tego przedmiotu należy kupić za pomocą jednego konta?
-maximalBuyingPrice | numer | Jeśli cena na aukcji będzie równa lub niższa od tej wartości, bot podejmie próbę zakupu
-priceCheckIntervalMs | numer | Jak często bot ma sprawdzać cenę w milisekundach - Formuła współczynnika żądań: 1x żądanie http przy każdej cenieCheckIntervalMs na 1 aukcję w pliku aukcje.txt
-accountsToUseCount | numer | Ile kont z pliku account.txt chcesz używać?
-headless | boolean (wartość logiczna) | Czy uruchomić przeglądarkę w trybie bezgłowym, czy nie. Używaj false tylko podczas debugowania
-
-
-Użycie - Po wszystkim, wykonaj `npm run start` w terminalu, aby uruchomić program.
+Usage - After all this, do `npm run start` in the terminal to start the program.
